@@ -32,4 +32,9 @@ public class ZappingTest {
     public void testSalida2Inverso(){
         assertEquals(41, Zapping.cambiarCanal(63, 5));
     }
+
+    @Test
+    public void testSalida49(){
+        assertEquals(49, Zapping.cambiarCanal(1, 51));
+    }
 }
